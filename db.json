@@ -1,56 +1,72 @@
 {
+  "exam_info": {
+    "id": 1,
+    "title": "Java Script",
+    "duration": 60,
+    "attempts": 1
+  },
   "questions_data": [
     {
       "id": 1,
-      "question_content": "Javascript is an _______ language?",
-      "question_type": "Single Choice",
-      "number_of_attempts": 2,
-      "options": [
-        "Object Oriented",
-        "Object-Based",
-        "Procedural",
-        "None of the above"
-      ]
+      "question_text": "Javascript is an _______ language?",
+      "question_type": "SCQ",
+      "options": {
+        "1": "Object Oriented",
+        "2": "Object-Based",
+        "3": "Procedural",
+        "4": "None of the above"
+      },
+      "answers": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0
+      }
     },
     {
       "id": 2,
-      "question_content": "Which of the following keywords is used to define a variable in Javascript?",
-      "question_type": "Multi Choice",
-      "number_of_attempts": 3,
-      "options": [
-        "var",
-        "let",
-        "set"
-      ]
+      "question_text": "Which of the following keywords is used to define a variable in Javascript?",
+      "question_type": "SCQ",
+      "options": {
+        "1": "let",
+        "2": "get",
+        "3": "set"
+      },
+      "answers": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      }
     },
     {
       "id": 3,
-      "question_content": "__________.log() can be used to display data in some form using Javascript?",
-      "question_type": "fill-blank",
-      "options": []
+      "question_text": "Number of primitive data types in Java are?",
+      "question_type": "SCQ",
+      "options": {
+        "1": "6",
+        "2": "7",
+        "3": "8",
+        "4": "9"
+      },
+      "answers": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
     }
   ],
-  "usersData": [
+  "candidate": [
     {
       "id": 1,
-      "name": "Jay Savlani",
-      "email": "jaysavlani@gmail.com",
-      "isTestAttempted": false,
-      "score": 0,
-      "timeTaken": 0,
-      "questionSet": [
+      "name": "",
+      "email": "",
+      "question_set": 0,
+      "answer_set": [
         {
-          "que_id": 0,
-          "que_type": "",
-          "number_of_attempts": 0,
-          "answer_expected": [
-            "",
-            ""
-          ],
-          "answer_given": [
-            "",
-            ""
-          ]
+          "que_id": 1,
+          "selected": 1,
+          "correct": 3
         }
       ]
     }
